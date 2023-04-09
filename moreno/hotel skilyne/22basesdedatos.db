@@ -1,0 +1,1693 @@
+<?xml version="1.0" encoding="UTF-8"?><sqlb_project><db path="E:/basesdedatos.db" readonly="0" foreign_keys="1" case_sensitive_like="0" temp_store="0" wal_autocheckpoint="1000" synchronous="2"/><attached/><window><main_tabs open="structure pragmas browser query" current="0"/></window><tab_structure><column_width id="0" width="300"/><column_width id="1" width="0"/><column_width id="2" width="100"/><column_width id="3" width="998"/><column_width id="4" width="0"/><expanded_item id="0" parent="1"/><expanded_item id="1" parent="1"/><expanded_item id="2" parent="1"/><expanded_item id="3" parent="1"/></tab_structure><tab_browse><current_table name="4,13:mainadministrador"/><default_encoding codec=""/><browse_table_settings><table schema="main" name="gerencia" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="98"/><column index="2" value="80"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table><table schema="main" name="usuarios" show_row_id="0" encoding="" plot_x_axis="" unlock_view_pk="_rowid_"><sort/><column_widths><column index="1" value="72"/><column index="2" value="64"/><column index="3" value="88"/><column index="4" value="227"/><column index="5" value="82"/></column_widths><filter_values/><conditional_formats/><row_id_formats/><display_formats/><hidden_columns/><plot_y_axes/><global_filter/></table></browse_table_settings></tab_browse><tab_sql><sql name="SQL 1">create table usuarios (
+
+	d_usuario INT,
+
+	nombre VARCHAR(50),
+
+	apellido VARCHAR(50),
+
+	email VARCHAR(50),
+
+	contraseña VARCHAR(50)
+
+);
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (1, 'Ginny', 'Pilmer', 'gpilmer0@dot.gov', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (2, 'Chev', 'Gerbel', 'cgerbel1@typepad.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (3, 'Noni', 'Murrell', 'nmurrell2@dagondesign.com', 'Genderfluid');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (4, 'Chlo', 'Devaney', 'cdevaney3@epa.gov', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (5, 'Alfonso', 'Dillimore', 'adillimore4@gizmodo.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (6, 'Sherwynd', 'Limbourne', 'slimbourne5@gmpg.org', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (7, 'Madison', 'Greystoke', 'mgreystoke6@naver.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (8, 'Diego', 'Coleson', 'dcoleson7@vkontakte.ru', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (9, 'Merle', 'Jouanot', 'mjouanot8@businessweek.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (10, 'Linn', 'Gilley', 'lgilley9@vkontakte.ru', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (11, 'Poppy', 'Dods', 'pdodsa@oaic.gov.au', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (12, 'Oby', 'Keene', 'okeeneb@digg.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (13, 'Barty', 'Beacom', 'bbeacomc@samsung.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (14, 'Gaultiero', 'Kryszka', 'gkryszkad@1und1.de', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (15, 'Cale', 'Boase', 'cboasee@reuters.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (16, 'Antonella', 'Handover', 'ahandoverf@columbia.edu', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (17, 'Boyd', 'Mills', 'bmillsg@nasa.gov', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (18, 'Talbert', 'Insull', 'tinsullh@psu.edu', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (19, 'Osbourne', 'Fricker', 'ofrickeri@icq.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (20, 'Wilton', 'Walsh', 'wwalshj@walmart.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (21, 'Carri', 'Mustill', 'cmustillk@addtoany.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (22, 'Haskel', 'Hardage', 'hhardagel@hexun.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (23, 'Mabel', 'McAnulty', 'mmcanultym@cisco.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (24, 'Dennison', 'Charlesworth', 'dcharlesworthn@webeden.co.uk', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (25, 'Wilow', 'Pontefract', 'wpontefracto@google.nl', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (26, 'Janot', 'Bowcher', 'jbowcherp@ning.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (27, 'Veronica', 'Konertz', 'vkonertzq@samsung.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (28, 'Scotty', 'De Luna', 'sdelunar@mit.edu', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (29, 'Moria', 'Creffield', 'mcreffields@soundcloud.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (30, 'Jelene', 'Agirre', 'jagirret@mashable.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (31, 'Garrik', 'Hardeman', 'ghardemanu@bizjournals.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (32, 'Bradan', 'Kefford', 'bkeffordv@last.fm', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (33, 'Daniella', 'Stiggers', 'dstiggersw@time.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (34, 'Leyla', 'Hylands', 'lhylandsx@webs.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (35, 'Gipsy', 'Wiggington', 'gwiggingtony@nymag.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (36, 'Roderich', 'Jillard', 'rjillardz@friendfeed.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (37, 'Yale', 'Wanley', 'ywanley10@seesaa.net', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (38, 'Abramo', 'Sibbald', 'asibbald11@indiatimes.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (39, 'Fernando', 'Mateuszczyk', 'fmateuszczyk12@techcrunch.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (40, 'Jacques', 'Jillard', 'jjillard13@buzzfeed.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (41, 'Lester', 'Brecher', 'lbrecher14@nhs.uk', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (42, 'Miran', 'Dalman', 'mdalman15@yelp.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (43, 'Ham', 'Allam', 'hallam16@flavors.me', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (44, 'Erhart', 'Ledwich', 'eledwich17@networksolutions.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (45, 'Tomasine', 'Gibbard', 'tgibbard18@networksolutions.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (46, 'Mandie', 'Ricciardo', 'mricciardo19@altervista.org', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (47, 'Ricky', 'Carnow', 'rcarnow1a@mashable.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (48, 'Shaw', 'Bulstrode', 'sbulstrode1b@businessinsider.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (49, 'Ximenez', 'Thurlow', 'xthurlow1c@cam.ac.uk', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (50, 'Brittni', 'Masi', 'bmasi1d@zdnet.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (51, 'Christyna', 'Emptage', 'cemptage1e@wordpress.org', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (52, 'Marlene', 'Polsin', 'mpolsin1f@hatena.ne.jp', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (53, 'Axe', 'Rodolico', 'arodolico1g@friendfeed.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (54, 'Denys', 'Digger', 'ddigger1h@mashable.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (55, 'Felizio', 'Ashment', 'fashment1i@sciencedirect.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (56, 'Dianne', 'Laird-Craig', 'dlairdcraig1j@comsenz.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (57, 'Geri', 'Sibbert', 'gsibbert1k@wired.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (58, 'Ty', 'Wanless', 'twanless1l@rambler.ru', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (59, 'Adlai', 'Lafuente', 'alafuente1m@exblog.jp', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (60, 'Carlo', 'Bolliver', 'cbolliver1n@yolasite.com', 'Genderfluid');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (61, 'Chaim', 'Pascho', 'cpascho1o@washingtonpost.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (62, 'Regan', 'Schuelcke', 'rschuelcke1p@springer.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (63, 'Peri', 'Hullot', 'phullot1q@miibeian.gov.cn', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (64, 'Pate', 'Couttes', 'pcouttes1r@xinhuanet.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (65, 'Kimbra', 'McPartling', 'kmcpartling1s@moonfruit.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (66, 'Randall', 'Atter', 'ratter1t@nytimes.com', 'Bigender');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (67, 'Nicol', 'Inchley', 'ninchley1u@archive.org', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (68, 'Carlynne', 'Frawley', 'cfrawley1v@dropbox.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (69, 'Nollie', 'Loffhead', 'nloffhead1w@wordpress.org', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (70, 'Marja', 'Spur', 'mspur1x@live.com', 'Agender');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (71, 'Loydie', 'Worsalls', 'lworsalls1y@fda.gov', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (72, 'Jo', 'Baal', 'jbaal1z@devhub.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (73, 'Reinaldos', 'McCunn', 'rmccunn20@state.gov', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (74, 'Dion', 'Deppe', 'ddeppe21@gov.uk', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (75, 'Raffarty', 'Westhofer', 'rwesthofer22@gnu.org', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (76, 'Orv', 'Margiotta', 'omargiotta23@sourceforge.net', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (77, 'Hillary', 'Barensky', 'hbarensky24@parallels.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (78, 'Corina', 'Polkinghorne', 'cpolkinghorne25@intel.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (79, 'Francyne', 'Jost', 'fjost26@columbia.edu', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (80, 'Joell', 'Conniam', 'jconniam27@go.com', 'Genderfluid');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (81, 'Maddie', 'Tanser', 'mtanser28@technorati.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (82, 'Josepha', 'Banaszkiewicz', 'jbanaszkiewicz29@addtoany.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (83, 'Nyssa', 'Orbon', 'norbon2a@yellowbook.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (84, 'Koo', 'Gaythorpe', 'kgaythorpe2b@networkadvertising.org', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (85, 'Tabbie', 'Trehearn', 'ttrehearn2c@google.ca', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (86, 'Bessy', 'Carbery', 'bcarbery2d@xing.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (87, 'Garvy', 'Crush', 'gcrush2e@reddit.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (88, 'Deni', 'Novotni', 'dnovotni2f@army.mil', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (89, 'Sunny', 'Clarabut', 'sclarabut2g@facebook.com', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (90, 'Linet', 'Dunkerley', 'ldunkerley2h@goodreads.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (91, 'Minni', 'Sterricks', 'msterricks2i@europa.eu', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (92, 'Erinn', 'McElory', 'emcelory2j@unblog.fr', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (93, 'Evelyn', 'Driussi', 'edriussi2k@mac.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (94, 'Babbie', 'Dartnall', 'bdartnall2l@jiathis.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (95, 'Dyane', 'Beurich', 'dbeurich2m@fotki.com', 'Female');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (96, 'Nathanial', 'Pidgen', 'npidgen2n@loc.gov', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (97, 'Matti', 'Hecks', 'mhecks2o@pbs.org', 'Agender');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (98, 'Adair', 'Kahen', 'akahen2p@opensource.org', 'Male');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (99, 'Ellene', 'MacCardle', 'emaccardle2q@mapquest.com', 'Polygender');
+
+insert into usuarios (d_usuario, nombre, apellido, email, contraseña) values (100, 'Allen', 'Hurne', 'ahurne2r@is.gd', 'Bigender');
+
+
+
+</sql><sql name="SQL 2">create table habitaciones (
+
+	n_habitaciones INT,
+
+	tipo_habitaciones VARCHAR(50),
+
+	precio VARCHAR(50)
+
+);
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (1, 'Lawry', 'Schirak');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (2, 'Eulalie', 'Massimi');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (3, 'Adi', 'Hinstridge');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (4, 'Fedora', 'Jauncey');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (5, 'Clywd', 'Duprey');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (6, 'Godart', 'Hutton');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (7, 'Hall', 'Axworthy');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (8, 'Kaine', 'Mewes');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (9, 'Selestina', 'Hattam');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (10, 'Sisile', 'Smiley');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (11, 'Sylvia', 'Found');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (12, 'Gretel', 'O''Doghesty');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (13, 'Hedvig', 'Pryer');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (14, 'Lianne', 'Benthall');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (15, 'Shannen', 'Grigorian');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (16, 'Marjory', 'Cavanaugh');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (17, 'Marlo', 'Ducarel');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (18, 'Lissi', 'Clawson');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (19, 'Nathanil', 'Soigoux');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (20, 'Hamnet', 'Vaulkhard');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (21, 'Gloriana', 'Glaister');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (22, 'Julietta', 'Fleckness');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (23, 'Killy', 'Blunsden');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (24, 'Dwight', 'Dagg');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (25, 'Jannel', 'Upham');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (26, 'Larine', 'Hess');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (27, 'Abagael', 'Trusdale');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (28, 'Carolee', 'Skakunas');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (29, 'Cly', 'Dimbleby');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (30, 'Carrol', 'Pitney');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (31, 'Chelsy', 'Freak');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (32, 'Sheila-kathryn', 'Perkins');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (33, 'Franciskus', 'Frail');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (34, 'Violet', 'Fortman');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (35, 'Aron', 'Banbury');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (36, 'Myranda', 'Meace');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (37, 'Daveen', 'Warhurst');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (38, 'Marlo', 'Marvelley');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (39, 'Genevieve', 'Scud');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (40, 'Vince', 'Willavize');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (41, 'Gav', 'Casier');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (42, 'Agosto', 'Youens');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (43, 'Kathryne', 'Androli');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (44, 'Moss', 'Roglieri');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (45, 'Clary', 'Bexon');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (46, 'Leanna', 'Champion');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (47, 'Olympia', 'Sinfield');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (48, 'Shawnee', 'Pullen');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (49, 'Edmon', 'Tregidga');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (50, 'Alberto', 'Berthot');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (51, 'Colette', 'Duberry');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (52, 'Irita', 'Cowdrey');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (53, 'Derk', 'Pleasance');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (54, 'Aile', 'Fowkes');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (55, 'Hadrian', 'Greson');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (56, 'Giordano', 'Halward');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (57, 'Say', 'Rait');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (58, 'Angela', 'MacLice');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (59, 'Agace', 'Roseborough');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (60, 'Darren', 'D''Onise');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (61, 'Romeo', 'Balderstone');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (62, 'Alane', 'Jales');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (63, 'Karel', 'Debnam');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (64, 'Eleanora', 'Taphouse');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (65, 'Kurt', 'Kemm');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (66, 'Appolonia', 'Paskerful');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (67, 'Marie', 'Breddy');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (68, 'Zarah', 'Foulcher');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (69, 'Nels', 'Baudrey');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (70, 'Guinevere', 'Sigert');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (71, 'Amanda', 'Daftor');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (72, 'Glenn', 'Ivatt');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (73, 'Daveta', 'Medcalfe');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (74, 'Daile', 'Bouldon');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (75, 'Beatrisa', 'Bernardoux');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (76, 'Trudie', 'Origan');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (77, 'Vonny', 'Denniston');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (78, 'Electra', 'Craze');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (79, 'Stanwood', 'Garnam');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (80, 'Whitby', 'Squibbs');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (81, 'Bartolomeo', 'Brumham');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (82, 'Samson', 'Baglin');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (83, 'Rebeka', 'Kliche');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (84, 'Cornelius', 'Elener');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (85, 'Dionisio', 'Cullinan');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (86, 'Doralin', 'Rouse');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (87, 'Ranna', 'Coatman');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (88, 'Flinn', 'Shrieve');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (89, 'Malinda', 'Sharkey');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (90, 'Jacobo', 'Penchen');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (91, 'Annamarie', 'Coast');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (92, 'Dael', 'Shea');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (93, 'Sylvia', 'Pendrey');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (94, 'Baillie', 'Whatley');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (95, 'Arman', 'Blackham');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (96, 'Berte', 'Charity');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (97, 'Hurlee', 'Poundsford');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (98, 'Audra', 'Cheeld');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (99, 'Durant', 'Collete');
+
+insert into habitaciones (n_habitaciones, tipo_habitaciones, precio) values (100, 'Janetta', 'Blackaller');
+
+</sql><sql name="SQL 3">create table gerencia (
+
+	administrador INT,
+
+	gerente VARCHAR(50)
+
+);
+
+insert into gerencia (administrador, gerente) values (1, 'Ulysses');
+
+insert into gerencia (administrador, gerente) values (2, 'Tony');
+
+insert into gerencia (administrador, gerente) values (3, 'Theadora');
+
+insert into gerencia (administrador, gerente) values (4, 'Greg');
+
+insert into gerencia (administrador, gerente) values (5, 'Cordelia');
+
+insert into gerencia (administrador, gerente) values (6, 'Sigismondo');
+
+insert into gerencia (administrador, gerente) values (7, 'Alie');
+
+insert into gerencia (administrador, gerente) values (8, 'Wilmette');
+
+insert into gerencia (administrador, gerente) values (9, 'Gwyneth');
+
+insert into gerencia (administrador, gerente) values (10, 'Lin');
+
+insert into gerencia (administrador, gerente) values (11, 'Ginny');
+
+insert into gerencia (administrador, gerente) values (12, 'Wilma');
+
+insert into gerencia (administrador, gerente) values (13, 'Noe');
+
+insert into gerencia (administrador, gerente) values (14, 'Erhart');
+
+insert into gerencia (administrador, gerente) values (15, 'Humbert');
+
+insert into gerencia (administrador, gerente) values (16, 'Zak');
+
+insert into gerencia (administrador, gerente) values (17, 'Whitman');
+
+insert into gerencia (administrador, gerente) values (18, 'Ilaire');
+
+insert into gerencia (administrador, gerente) values (19, 'Jamison');
+
+insert into gerencia (administrador, gerente) values (20, 'Griff');
+
+insert into gerencia (administrador, gerente) values (21, 'Kimberli');
+
+insert into gerencia (administrador, gerente) values (22, 'Bobine');
+
+insert into gerencia (administrador, gerente) values (23, 'Dorothee');
+
+insert into gerencia (administrador, gerente) values (24, 'Catlee');
+
+insert into gerencia (administrador, gerente) values (25, 'Merrily');
+
+insert into gerencia (administrador, gerente) values (26, 'Pauly');
+
+insert into gerencia (administrador, gerente) values (27, 'Lamont');
+
+insert into gerencia (administrador, gerente) values (28, 'Mylo');
+
+insert into gerencia (administrador, gerente) values (29, 'Falkner');
+
+insert into gerencia (administrador, gerente) values (30, 'Carma');
+
+insert into gerencia (administrador, gerente) values (31, 'Mersey');
+
+insert into gerencia (administrador, gerente) values (32, 'Noella');
+
+insert into gerencia (administrador, gerente) values (33, 'Samuele');
+
+insert into gerencia (administrador, gerente) values (34, 'Berri');
+
+insert into gerencia (administrador, gerente) values (35, 'Giselbert');
+
+insert into gerencia (administrador, gerente) values (36, 'Nahum');
+
+insert into gerencia (administrador, gerente) values (37, 'Matty');
+
+insert into gerencia (administrador, gerente) values (38, 'Barbaraanne');
+
+insert into gerencia (administrador, gerente) values (39, 'Cecil');
+
+insert into gerencia (administrador, gerente) values (40, 'Foss');
+
+insert into gerencia (administrador, gerente) values (41, 'Dimitri');
+
+insert into gerencia (administrador, gerente) values (42, 'Rollo');
+
+insert into gerencia (administrador, gerente) values (43, 'Jade');
+
+insert into gerencia (administrador, gerente) values (44, 'Son');
+
+insert into gerencia (administrador, gerente) values (45, 'Drucill');
+
+insert into gerencia (administrador, gerente) values (46, 'Arlinda');
+
+insert into gerencia (administrador, gerente) values (47, 'Laurie');
+
+insert into gerencia (administrador, gerente) values (48, 'Braden');
+
+insert into gerencia (administrador, gerente) values (49, 'Spenser');
+
+insert into gerencia (administrador, gerente) values (50, 'Deonne');
+
+insert into gerencia (administrador, gerente) values (51, 'Clarence');
+
+insert into gerencia (administrador, gerente) values (52, 'Virginia');
+
+insert into gerencia (administrador, gerente) values (53, 'Bayard');
+
+insert into gerencia (administrador, gerente) values (54, 'Horace');
+
+insert into gerencia (administrador, gerente) values (55, 'Dew');
+
+insert into gerencia (administrador, gerente) values (56, 'Lauralee');
+
+insert into gerencia (administrador, gerente) values (57, 'Kalle');
+
+insert into gerencia (administrador, gerente) values (58, 'Anna');
+
+insert into gerencia (administrador, gerente) values (59, 'Wang');
+
+insert into gerencia (administrador, gerente) values (60, 'Laryssa');
+
+insert into gerencia (administrador, gerente) values (61, 'Port');
+
+insert into gerencia (administrador, gerente) values (62, 'Fabiano');
+
+insert into gerencia (administrador, gerente) values (63, 'Fritz');
+
+insert into gerencia (administrador, gerente) values (64, 'Alwin');
+
+insert into gerencia (administrador, gerente) values (65, 'Renault');
+
+insert into gerencia (administrador, gerente) values (66, 'Genny');
+
+insert into gerencia (administrador, gerente) values (67, 'Lyndel');
+
+insert into gerencia (administrador, gerente) values (68, 'Randy');
+
+insert into gerencia (administrador, gerente) values (69, 'Chrissy');
+
+insert into gerencia (administrador, gerente) values (70, 'Marcello');
+
+insert into gerencia (administrador, gerente) values (71, 'Kendre');
+
+insert into gerencia (administrador, gerente) values (72, 'Massimo');
+
+insert into gerencia (administrador, gerente) values (73, 'Jacenta');
+
+insert into gerencia (administrador, gerente) values (74, 'Liz');
+
+insert into gerencia (administrador, gerente) values (75, 'Krishna');
+
+insert into gerencia (administrador, gerente) values (76, 'Merry');
+
+insert into gerencia (administrador, gerente) values (77, 'Roseanna');
+
+insert into gerencia (administrador, gerente) values (78, 'Tammy');
+
+insert into gerencia (administrador, gerente) values (79, 'Dun');
+
+insert into gerencia (administrador, gerente) values (80, 'Edwin');
+
+insert into gerencia (administrador, gerente) values (81, 'Kristin');
+
+insert into gerencia (administrador, gerente) values (82, 'Thibaud');
+
+insert into gerencia (administrador, gerente) values (83, 'Guillermo');
+
+insert into gerencia (administrador, gerente) values (84, 'Gabbie');
+
+insert into gerencia (administrador, gerente) values (85, 'Bern');
+
+insert into gerencia (administrador, gerente) values (86, 'Tressa');
+
+insert into gerencia (administrador, gerente) values (87, 'Kirbee');
+
+insert into gerencia (administrador, gerente) values (88, 'Townsend');
+
+insert into gerencia (administrador, gerente) values (89, 'Debi');
+
+insert into gerencia (administrador, gerente) values (90, 'Prudy');
+
+insert into gerencia (administrador, gerente) values (91, 'Annemarie');
+
+insert into gerencia (administrador, gerente) values (92, 'Marcile');
+
+insert into gerencia (administrador, gerente) values (93, 'Bevvy');
+
+insert into gerencia (administrador, gerente) values (94, 'Liliane');
+
+insert into gerencia (administrador, gerente) values (95, 'Minny');
+
+insert into gerencia (administrador, gerente) values (96, 'Marius');
+
+insert into gerencia (administrador, gerente) values (97, 'Jacynth');
+
+insert into gerencia (administrador, gerente) values (98, 'Aloysius');
+
+insert into gerencia (administrador, gerente) values (99, 'Rab');
+
+insert into gerencia (administrador, gerente) values (100, 'Catlin');
+
+</sql><sql name="SQL 4">create table administrador (
+
+	n_identificacion INT,
+
+	nombre VARCHAR(50),
+
+	email VARCHAR(50),
+
+	contraseña VARCHAR(50)
+
+);
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (1, 'Taddeo', 'Cale', 'Jerrilee');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (2, 'Dotty', 'Giustina', 'Kristo');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (3, 'Brita', 'Jareb', 'Ailbert');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (4, 'Kendre', 'Leah', 'Bernadina');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (5, 'Jon', 'Babs', 'Calhoun');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (6, 'Elsie', 'Weidar', 'Josh');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (7, 'Roger', 'Myca', 'Charlean');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (8, 'Nonna', 'Hyacinthe', 'Vasilis');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (9, 'Ingaberg', 'Bondy', 'Morse');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (10, 'Lorettalorna', 'Cletus', 'Son');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (11, 'Vernor', 'Neal', 'Griffie');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (12, 'Kris', 'Moyra', 'Farris');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (13, 'Rachelle', 'Wilow', 'Elissa');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (14, 'Yorgos', 'Leif', 'Mirabelle');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (15, 'Zacharias', 'Beaufort', 'Arlie');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (16, 'Guido', 'Vale', 'Mata');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (17, 'Queenie', 'Michaela', 'Timothy');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (18, 'Oralla', 'Reamonn', 'Munroe');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (19, 'Shell', 'Ruddy', 'Abby');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (20, 'Laurice', 'Jeffrey', 'Rip');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (21, 'Orsa', 'Jecho', 'Jay');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (22, 'Julissa', 'Ashley', 'Murdoch');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (23, 'Sherman', 'Marget', 'Elizabeth');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (24, 'Franky', 'Natalee', 'Constantine');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (25, 'Gonzales', 'Judd', 'Humfrey');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (26, 'Selene', 'Shannen', 'Flory');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (27, 'Emanuele', 'Patrick', 'Kimbell');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (28, 'Anett', 'Callida', 'Francyne');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (29, 'Andros', 'Cicely', 'Michel');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (30, 'Eolande', 'Kath', 'Joella');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (31, 'Xylina', 'Ethelin', 'Nata');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (32, 'Bendite', 'Pancho', 'Eryn');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (33, 'Willa', 'Stephen', 'Suzanne');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (34, 'Graehme', 'Rheba', 'Vaughan');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (35, 'Sheffie', 'King', 'Kaila');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (36, 'Janelle', 'Patton', 'Devon');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (37, 'Gnni', 'Jarrid', 'Benn');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (38, 'Bradford', 'Augustina', 'Nickola');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (39, 'Merle', 'Nial', 'Vidovik');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (40, 'Wilburt', 'Ashlan', 'Ardath');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (41, 'Talbot', 'Bonnie', 'Benoit');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (42, 'Leeanne', 'Hilario', 'Ainslee');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (43, 'Benjamen', 'Curtice', 'Harriett');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (44, 'Florenza', 'Nikola', 'Kippie');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (45, 'Mick', 'Pam', 'Yasmeen');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (46, 'Malia', 'Vittorio', 'Brita');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (47, 'Tamar', 'Kirby', 'Dionis');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (48, 'Lily', 'Gwenore', 'Marcelo');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (49, 'Ashla', 'Aeriel', 'Veronike');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (50, 'Rand', 'Tammy', 'Kalli');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (51, 'Devy', 'Alvira', 'Guido');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (52, 'Henriette', 'Guendolen', 'Almeda');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (53, 'Zolly', 'Terese', 'Alleen');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (54, 'Claudio', 'Dieter', 'Halimeda');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (55, 'Iolanthe', 'Doralynne', 'Aurelie');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (56, 'Valerye', 'Michaela', 'Allie');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (57, 'Kial', 'Kit', 'Luciana');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (58, 'Wallace', 'Lindsy', 'Aloin');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (59, 'Petrina', 'Raimund', 'Maurits');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (60, 'Charlton', 'Nicolle', 'Lesli');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (61, 'Charin', 'Rachel', 'Talia');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (62, 'Othella', 'Ravid', 'Consolata');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (63, 'Maddy', 'Fabe', 'Rozella');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (64, 'Shepherd', 'Wayland', 'Car');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (65, 'Bunnie', 'Alane', 'Yanaton');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (66, 'Winston', 'Devonne', 'Gelya');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (67, 'Adriena', 'Piper', 'Patty');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (68, 'Dulcy', 'Sloan', 'Jocko');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (69, 'Adriana', 'Granny', 'Steffen');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (70, 'Claudian', 'Emily', 'Judi');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (71, 'Brianne', 'Shirleen', 'Carmella');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (72, 'Julita', 'Melisandra', 'Vannie');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (73, 'Zebulon', 'Ignaz', 'Coriss');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (74, 'Cicely', 'Davita', 'Otho');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (75, 'Bernarr', 'Ned', 'Madelyn');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (76, 'Boonie', 'Stepha', 'Oneida');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (77, 'Madelena', 'Melody', 'Jodee');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (78, 'Oralee', 'Luce', 'Pancho');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (79, 'Kennie', 'Adolf', 'Sabrina');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (80, 'Carmencita', 'Patricio', 'Penelopa');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (81, 'Almeta', 'Dorrie', 'Yolanthe');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (82, 'Rog', 'Dougie', 'Mavis');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (83, 'Casie', 'Benita', 'Arvie');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (84, 'Del', 'Pammy', 'Chanda');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (85, 'Luci', 'Ronnie', 'Roley');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (86, 'Inglebert', 'Page', 'Pembroke');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (87, 'Kissee', 'Natalina', 'Emmalynne');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (88, 'Twila', 'Ardyth', 'Aimil');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (89, 'Marion', 'Dwayne', 'Brittaney');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (90, 'Jabez', 'Yale', 'Gustavo');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (91, 'Iggy', 'Rebeca', 'Stace');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (92, 'Terence', 'Billi', 'Gaven');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (93, 'Jennilee', 'Mary', 'Jefferey');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (94, 'Amalle', 'Jeffy', 'Adelice');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (95, 'Ransell', 'Godfree', 'Shoshana');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (96, 'Monte', 'Georgianna', 'Dillon');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (97, 'Clement', 'Luz', 'Renie');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (98, 'Jean', 'Zacherie', 'Randell');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (99, 'Pietro', 'Trixie', 'Wallie');
+
+insert into administrador (n_identificacion, nombre, email, contraseña) values (100, 'Mabelle', 'Nicola', 'Consuela');
+
+</sql><sql name="SQL 5">create table reservacion (
+
+	n_recervacion INT,
+
+	fechas_ini VARCHAR(50),
+
+	fecha_fin VARCHAR(50),
+
+	d_usuarios VARCHAR(50)
+
+);
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (1, 'Sandor', 'Marchelle', 'Eugenia');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (2, 'Etan', 'Thebault', 'Averill');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (3, 'Timoteo', 'Parry', 'Cinda');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (4, 'Julie', 'Olvan', 'Leone');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (5, 'Rozella', 'Fidelio', 'Ginny');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (6, 'Maximilien', 'Marlie', 'Tamera');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (7, 'Idalia', 'Mirabel', 'Mandel');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (8, 'Janene', 'Thomasina', 'Stavro');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (9, 'Catharine', 'Celie', 'Addi');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (10, 'Jorrie', 'Dasya', 'Raleigh');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (11, 'Devora', 'Allistir', 'Eloisa');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (12, 'Gustavo', 'Laverna', 'Luella');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (13, 'Torrence', 'Welbie', 'Betteanne');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (14, 'Owen', 'Ursulina', 'Lonni');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (15, 'Afton', 'Israel', 'Fernandina');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (16, 'Rodney', 'Gabriela', 'Sianna');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (17, 'Aridatha', 'Becki', 'Agustin');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (18, 'Mufi', 'Anatol', 'Fern');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (19, 'Rafa', 'Clark', 'Ulberto');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (20, 'Zollie', 'Tove', 'Jaymie');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (21, 'Gayle', 'Skylar', 'Brandtr');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (22, 'Gertrude', 'Shandy', 'Llywellyn');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (23, 'Cindelyn', 'Blinni', 'Perren');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (24, 'De witt', 'Lincoln', 'Barnaby');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (25, 'Tawsha', 'Raddy', 'Johnny');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (26, 'Harwilll', 'Zacherie', 'Sonny');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (27, 'Hugibert', 'Collen', 'Keslie');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (28, 'Jourdain', 'Amalee', 'Xylia');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (29, 'Ashli', 'Wren', 'Cart');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (30, 'Mirabel', 'Jacklyn', 'Charil');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (31, 'Huntley', 'Teriann', 'Ikey');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (32, 'Stanly', 'Thacher', 'Shani');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (33, 'Abraham', 'Boony', 'Alain');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (34, 'Eustace', 'Tam', 'Delia');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (35, 'Lorine', 'Doloritas', 'Barbette');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (36, 'Sargent', 'Giuditta', 'Keely');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (37, 'Lanny', 'Gwendolen', 'Eleen');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (38, 'Sollie', 'Selig', 'Kimberly');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (39, 'Georgena', 'Helge', 'Adella');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (40, 'Phyllis', 'Celisse', 'Hillel');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (41, 'Dorene', 'Meaghan', 'Vanessa');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (42, 'Curry', 'Mohandas', 'Celle');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (43, 'Ronny', 'Ruttger', 'Chrissy');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (44, 'Egon', 'Jonathan', 'Rocky');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (45, 'Mahalia', 'Perle', 'Charisse');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (46, 'Babbette', 'Alick', 'Guthry');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (47, 'Ham', 'Dane', 'Darb');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (48, 'Gabi', 'Gillan', 'Zolly');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (49, 'Stacee', 'Corinne', 'Hailee');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (50, 'Lilly', 'Roda', 'Christel');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (51, 'Jeanna', 'Cozmo', 'Henry');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (52, 'Toni', 'Sylvia', 'Biron');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (53, 'Rorie', 'Gail', 'Judye');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (54, 'Victoir', 'Dane', 'Hale');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (55, 'Gabey', 'Johannes', 'Lilian');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (56, 'Ross', 'Naoma', 'Rosy');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (57, 'Odelinda', 'Park', 'Irina');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (58, 'Thia', 'Hannah', 'Dione');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (59, 'Janice', 'Erik', 'Winslow');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (60, 'Lorri', 'Ethelyn', 'Hale');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (61, 'Stanwood', 'Dolly', 'Brion');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (62, 'Sancho', 'Tierney', 'Audy');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (63, 'Wallache', 'Rhonda', 'Cassandry');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (64, 'Munmro', 'Hunter', 'Nelie');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (65, 'Helen-elizabeth', 'Dicky', 'Andrus');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (66, 'Dominica', 'Cordie', 'Lou');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (67, 'Ashlen', 'Minnnie', 'Joete');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (68, 'Phoebe', 'Marlow', 'Jammal');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (69, 'Payton', 'Kingston', 'Prue');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (70, 'Ford', 'Lesli', 'Rolfe');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (71, 'Rory', 'Dru', 'Angelique');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (72, 'Byran', 'Archaimbaud', 'Frederik');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (73, 'Melisande', 'Sibley', 'Marysa');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (74, 'Sibeal', 'Jolie', 'Frank');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (75, 'Melisandra', 'Baldwin', 'Eveleen');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (76, 'Amelie', 'Nichol', 'Dalis');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (77, 'Coreen', 'Tabbatha', 'Timothee');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (78, 'Tedi', 'Datha', 'Shelia');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (79, 'Chris', 'Town', 'Jourdan');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (80, 'Teriann', 'Bel', 'Goldi');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (81, 'Spencer', 'Gram', 'Beau');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (82, 'Ileana', 'Alis', 'Jo-anne');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (83, 'Kakalina', 'Antonietta', 'Ariela');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (84, 'Zahara', 'Friedrick', 'Yance');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (85, 'Putnam', 'Adora', 'Conchita');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (86, 'Kerry', 'Welbie', 'Gabie');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (87, 'Claudio', 'Dallas', 'Carlita');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (88, 'Truman', 'Brannon', 'Avigdor');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (89, 'Ralina', 'Lezley', 'Wittie');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (90, 'Cosimo', 'Cecil', 'Englebert');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (91, 'Aldis', 'Marcille', 'Danice');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (92, 'Dottie', 'Kennan', 'Lorianne');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (93, 'Pauly', 'Mathilde', 'Meredith');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (94, 'Shaun', 'Sharity', 'Giulia');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (95, 'Emelyne', 'Baudoin', 'Britt');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (96, 'Agata', 'Sloan', 'Shelden');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (97, 'Elbertine', 'Currey', 'Debi');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (98, 'Meade', 'Silas', 'Sayers');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (99, 'Claiborne', 'Jeremie', 'Cynde');
+
+insert into reservacion (n_recervacion, fechas_ini, fecha_fin, d_usuarios) values (100, 'Ariel', 'Crystie', 'Karlotta');
+
+</sql><sql name="SQL 6">create table gerente (
+
+	n_identidadgere INT,
+
+	nombre VARCHAR(50),
+
+	email VARCHAR(50),
+
+	contraseña VARCHAR(50)
+
+);
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (1, 'Torin', 'Brandice', 'Demetris');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (2, 'Arlie', 'Meridith', 'Waneta');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (3, 'Darryl', 'Frayda', 'Katharine');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (4, 'Stacee', 'Dagny', 'Talbert');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (5, 'Myron', 'Arabella', 'Caryl');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (6, 'Norri', 'Luci', 'Tobe');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (7, 'Lynnette', 'Rolando', 'Bard');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (8, 'Flory', 'Pen', 'Tanney');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (9, 'Kendal', 'Bryna', 'Delila');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (10, 'Betti', 'Nicola', 'Vikki');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (11, 'Harcourt', 'Danit', 'Boyd');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (12, 'Garek', 'Henka', 'Yanaton');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (13, 'Etan', 'Edin', 'Darcee');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (14, 'Maurita', 'Maddie', 'Birdie');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (15, 'Lorita', 'Ofilia', 'Grace');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (16, 'Dalia', 'Sky', 'Aubrie');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (17, 'Chad', 'Renado', 'Jewel');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (18, 'Henri', 'Denise', 'Homerus');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (19, 'Flynn', 'Jermain', 'Tomlin');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (20, 'Vin', 'Tallie', 'Ephraim');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (21, 'Marcello', 'Nicolais', 'Eloisa');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (22, 'Thomasina', 'Ogdon', 'Leo');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (23, 'Burtie', 'Correy', 'Timothea');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (24, 'Granthem', 'Drona', 'Dexter');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (25, 'Tammy', 'Lark', 'Bettine');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (26, 'Valery', 'Dalli', 'Anne-marie');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (27, 'Gilligan', 'Karna', 'Rhonda');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (28, 'Wendall', 'Blaire', 'Georgeanna');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (29, 'Nalani', 'Modesta', 'Mathe');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (30, 'Irvine', 'Raf', 'Stefa');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (31, 'Dulci', 'Nicola', 'Philomena');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (32, 'Gustavo', 'Nell', 'Amabel');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (33, 'Rosaleen', 'Cordelie', 'Orrin');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (34, 'Jim', 'Reynold', 'Sella');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (35, 'Florentia', 'Bil', 'Meredeth');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (36, 'Zoe', 'Oralle', 'Iggie');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (37, 'Rodger', 'Lizbeth', 'Gabriel');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (38, 'Jermayne', 'Pammy', 'Flinn');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (39, 'Neda', 'Tuck', 'Glenden');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (40, 'Henryetta', 'Clemmie', 'Consuelo');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (41, 'Andris', 'Rhona', 'Carlynn');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (42, 'Clemens', 'Melany', 'Olin');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (43, 'Peder', 'Lane', 'Krisha');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (44, 'Audry', 'Menard', 'Lothario');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (45, 'Alexandra', 'Hayden', 'Rudolph');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (46, 'Rockwell', 'Willow', 'Alejoa');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (47, 'Charity', 'Neala', 'Hillel');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (48, 'Timmie', 'Ree', 'Laure');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (49, 'Anderea', 'Dedra', 'Elissa');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (50, 'Rob', 'Averell', 'Brennan');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (51, 'Menard', 'Orazio', 'Jemima');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (52, 'Christian', 'Calvin', 'Marcellina');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (53, 'Juliane', 'Rodney', 'Sharline');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (54, 'Gaspar', 'Philipa', 'Phillie');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (55, 'Jackquelin', 'Hillard', 'Ilyse');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (56, 'Carlotta', 'Jordan', 'Sheff');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (57, 'Christyna', 'Danyelle', 'Levy');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (58, 'Hewett', 'Bartel', 'Lotte');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (59, 'Wren', 'Jessie', 'Josi');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (60, 'Anton', 'Morganne', 'Cale');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (61, 'Kittie', 'Neddie', 'Britni');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (62, 'Norbie', 'Ilysa', 'Freemon');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (63, 'Austine', 'Karla', 'Adolphus');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (64, 'Armando', 'Bronnie', 'Fredra');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (65, 'Ashlie', 'Paulette', 'Page');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (66, 'Kali', 'Kinna', 'Mellicent');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (67, 'Augustin', 'Russell', 'Corette');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (68, 'Hector', 'Bobby', 'Nikkie');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (69, 'Lyndsay', 'Virge', 'Lyndsie');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (70, 'Ardyce', 'Bryna', 'Tine');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (71, 'Frank', 'Arron', 'Helena');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (72, 'Krissy', 'Mandy', 'Sibeal');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (73, 'Victor', 'Idalina', 'Jacquette');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (74, 'Orland', 'Etta', 'Paul');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (75, 'Else', 'Grayce', 'Chrotoem');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (76, 'Glenda', 'Jehu', 'Jania');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (77, 'Dag', 'Nikolas', 'Britt');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (78, 'Alisa', 'Emelina', 'Bartel');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (79, 'Tory', 'Truda', 'Jed');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (80, 'Riccardo', 'Celia', 'Porter');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (81, 'Denis', 'Dione', 'Spike');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (82, 'Lorry', 'Tito', 'Randy');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (83, 'Gonzalo', 'Abra', 'Delbert');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (84, 'Faun', 'Noellyn', 'Milena');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (85, 'Mariejeanne', 'Timotheus', 'Huberto');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (86, 'Alexis', 'Tam', 'Philip');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (87, 'Constancy', 'Hally', 'Timi');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (88, 'Lu', 'Sena', 'Nichole');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (89, 'Janot', 'Chloette', 'Melvin');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (90, 'Garrett', 'Rosaline', 'Guenevere');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (91, 'Vic', 'Christoph', 'Leandra');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (92, 'Dario', 'Quintin', 'Pauletta');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (93, 'Clemmie', 'Shalom', 'Rebe');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (94, 'Teodoro', 'Marci', 'Allyn');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (95, 'Glenn', 'Carina', 'Irwin');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (96, 'Liana', 'Corabel', 'Ralph');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (97, 'Lorilee', 'Tamarra', 'Prent');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (98, 'Ted', 'Adelind', 'Frederico');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (99, 'Mala', 'Goran', 'Tate');
+
+insert into gerente (n_identidadgere, nombre, email, contraseña) values (100, 'Worthington', 'Benjamin', 'Correna');
+
+</sql><sql name="SQL 7">create table factura (
+
+	hora_entrada INT,
+
+	beneficios VARCHAR(50),
+
+	hora_salida VARCHAR(50),
+
+	n_habitacion VARCHAR(50)
+
+);
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (1, 'Mayne', 'Babb', 'Maddie');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (2, 'John', 'Keary', 'Robena');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (3, 'Hope', 'Kermy', 'Noelyn');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (4, 'Ginger', 'Cy', 'Lucius');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (5, 'Leanora', 'Tildi', 'Darb');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (6, 'Tonia', 'Arturo', 'Allys');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (7, 'Clemmie', 'Hannis', 'Kennan');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (8, 'Heather', 'Roxane', 'Ashil');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (9, 'Forbes', 'Terry', 'Louis');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (10, 'Hercule', 'Lyndel', 'Costanza');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (11, 'Cchaddie', 'Chance', 'Drud');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (12, 'Fredi', 'Inger', 'Ansley');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (13, 'Beitris', 'Mead', 'Vannie');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (14, 'Saul', 'Gasper', 'Shirlene');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (15, 'Austine', 'Nickey', 'Cesya');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (16, 'Sharyl', 'Nessy', 'Laurena');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (17, 'Daniele', 'Roseline', 'Lynne');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (18, 'Barbey', 'Rory', 'Langston');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (19, 'Ruth', 'Ebenezer', 'Birdie');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (20, 'Tiff', 'Jackelyn', 'Garreth');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (21, 'Dag', 'Mikkel', 'Alina');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (22, 'Annabal', 'Berk', 'Nonah');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (23, 'Marillin', 'Hilliard', 'Moselle');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (24, 'Ardyce', 'Stanleigh', 'Kirbie');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (25, 'Howard', 'Rollins', 'Ambrosio');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (26, 'Anatol', 'Gene', 'Luz');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (27, 'Mordecai', 'Aldin', 'Natalie');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (28, 'Teressa', 'Hildy', 'Martino');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (29, 'Eddi', 'Alvie', 'Clyve');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (30, 'Yves', 'Doe', 'Ferris');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (31, 'Cobb', 'Darb', 'Marysa');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (32, 'Matilde', 'Garv', 'Theda');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (33, 'Lyndel', 'Salim', 'Benyamin');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (34, 'Gavra', 'Elsinore', 'Blisse');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (35, 'Sherlocke', 'Miriam', 'Adrien');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (36, 'Leeland', 'Tabbitha', 'Ernesto');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (37, 'Tamar', 'Cissiee', 'Marcelline');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (38, 'Gladys', 'Fred', 'Merill');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (39, 'Dacey', 'Redd', 'Kathryn');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (40, 'Saloma', 'Desdemona', 'Ivett');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (41, 'Mandie', 'Korie', 'Myrtle');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (42, 'Aldric', 'Conni', 'Chickie');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (43, 'Tod', 'Cale', 'Maximo');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (44, 'Khalil', 'Sigfried', 'Kamillah');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (45, 'Adolph', 'Hill', 'Elonore');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (46, 'Franciskus', 'Florentia', 'Jackelyn');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (47, 'Terrell', 'Dion', 'Tish');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (48, 'Shayna', 'La verne', 'Gennie');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (49, 'Salmon', 'Grethel', 'Alvira');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (50, 'Coriss', 'Chrissie', 'Paulo');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (51, 'Constance', 'Mara', 'Guthrie');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (52, 'Gladys', 'Melonie', 'Serge');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (53, 'Maddy', 'Doloritas', 'Carolyn');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (54, 'Kariotta', 'Carry', 'Micaela');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (55, 'Oneida', 'Merry', 'Selig');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (56, 'Euphemia', 'Town', 'Parrnell');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (57, 'Taddeusz', 'Charity', 'Verne');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (58, 'Carolan', 'Ashly', 'Ardyth');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (59, 'Merrel', 'Jermaine', 'Celestina');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (60, 'Tania', 'Annamarie', 'Tucker');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (61, 'Dillie', 'Micky', 'Cam');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (62, 'Hillier', 'Ardine', 'Kippie');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (63, 'Humphrey', 'Romona', 'Hilliard');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (64, 'Alix', 'Bond', 'Chip');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (65, 'Veronique', 'Mace', 'Anita');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (66, 'Benjy', 'Sibylle', 'Opalina');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (67, 'Park', 'Adrianna', 'Osgood');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (68, 'Keir', 'Howey', 'Vivienne');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (69, 'Ellynn', 'Edna', 'Charmian');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (70, 'Brina', 'Kurtis', 'Celeste');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (71, 'Ephrem', 'Tybie', 'Trula');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (72, 'Delano', 'Charisse', 'Gerry');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (73, 'Effie', 'Earle', 'Janie');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (74, 'Trina', 'Adan', 'Lin');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (75, 'Constantin', 'Dewie', 'Dixie');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (76, 'Kaia', 'Bob', 'Godfrey');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (77, 'Tobie', 'Levey', 'Vasily');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (78, 'Halley', 'Nara', 'Kaja');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (79, 'Nessie', 'Laird', 'Edvard');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (80, 'Joleen', 'Rosanna', 'Rey');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (81, 'Mick', 'Deloris', 'Reube');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (82, 'Karissa', 'Hadria', 'Garner');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (83, 'Bordie', 'Staford', 'Trey');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (84, 'Isa', 'Godard', 'Avie');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (85, 'Lotti', 'Del', 'Dela');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (86, 'Jasun', 'Walther', 'Prissie');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (87, 'Alyosha', 'Christin', 'Romain');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (88, 'Hyman', 'Katy', 'Filmore');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (89, 'Paco', 'Florie', 'Floris');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (90, 'Holly', 'Kiah', 'Timothea');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (91, 'Bernelle', 'Serge', 'Feodora');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (92, 'Susette', 'Cornie', 'Michelle');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (93, 'Natalie', 'Mada', 'Cybill');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (94, 'Chen', 'Lavena', 'Filbert');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (95, 'Perceval', 'Carlita', 'Cordey');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (96, 'Val', 'Ferdie', 'Annetta');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (97, 'Janifer', 'Sheilah', 'Daisie');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (98, 'Pauly', 'Tildy', 'Doll');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (99, 'Bruce', 'Betty', 'Jessi');
+
+insert into factura (hora_entrada, beneficios, hora_salida, n_habitacion) values (100, 'Merrick', 'Lora', 'Jilly');
+
+</sql><sql name="SQL 8">create table transacciones  (
+
+	entidades INT,
+
+	egresos VARCHAR(50),
+
+	ingresos VARCHAR(50)
+
+);
+
+insert into transacciones  (entidades, egresos, ingresos) values (1, 'Currey', 'Franny');
+
+insert into transacciones  (entidades, egresos, ingresos) values (2, 'Kaile', 'Robers');
+
+insert into transacciones  (entidades, egresos, ingresos) values (3, 'Dallas', 'Fan');
+
+insert into transacciones  (entidades, egresos, ingresos) values (4, 'Arleen', 'Elvera');
+
+insert into transacciones  (entidades, egresos, ingresos) values (5, 'Abby', 'Myrtle');
+
+insert into transacciones  (entidades, egresos, ingresos) values (6, 'Alyda', 'Selby');
+
+insert into transacciones  (entidades, egresos, ingresos) values (7, 'Herve', 'Fiorenze');
+
+insert into transacciones  (entidades, egresos, ingresos) values (8, 'Hort', 'Thaddeus');
+
+insert into transacciones  (entidades, egresos, ingresos) values (9, 'Liane', 'Glynnis');
+
+insert into transacciones  (entidades, egresos, ingresos) values (10, 'Jard', 'Deedee');
+
+insert into transacciones  (entidades, egresos, ingresos) values (11, 'Ario', 'Uriel');
+
+insert into transacciones  (entidades, egresos, ingresos) values (12, 'Katina', 'Sol');
+
+insert into transacciones  (entidades, egresos, ingresos) values (13, 'Palmer', 'Vasili');
+
+insert into transacciones  (entidades, egresos, ingresos) values (14, 'Akim', 'Eddi');
+
+insert into transacciones  (entidades, egresos, ingresos) values (15, 'Babbie', 'Tonia');
+
+insert into transacciones  (entidades, egresos, ingresos) values (16, 'Masha', 'Tiffani');
+
+insert into transacciones  (entidades, egresos, ingresos) values (17, 'Kristan', 'Nana');
+
+insert into transacciones  (entidades, egresos, ingresos) values (18, 'Skip', 'Jackquelin');
+
+insert into transacciones  (entidades, egresos, ingresos) values (19, 'Woodman', 'Amabelle');
+
+insert into transacciones  (entidades, egresos, ingresos) values (20, 'Cyrus', 'Redd');
+
+insert into transacciones  (entidades, egresos, ingresos) values (21, 'Evita', 'Nathanil');
+
+insert into transacciones  (entidades, egresos, ingresos) values (22, 'Vanna', 'Arlina');
+
+insert into transacciones  (entidades, egresos, ingresos) values (23, 'Geno', 'Phelia');
+
+insert into transacciones  (entidades, egresos, ingresos) values (24, 'Westleigh', 'Elysee');
+
+insert into transacciones  (entidades, egresos, ingresos) values (25, 'Conan', 'Lanny');
+
+insert into transacciones  (entidades, egresos, ingresos) values (26, 'Jaymee', 'Joshuah');
+
+insert into transacciones  (entidades, egresos, ingresos) values (27, 'Grier', 'Witty');
+
+insert into transacciones  (entidades, egresos, ingresos) values (28, 'Ambrosius', 'Lenee');
+
+insert into transacciones  (entidades, egresos, ingresos) values (29, 'Nicol', 'Reynolds');
+
+insert into transacciones  (entidades, egresos, ingresos) values (30, 'Carey', 'Gauthier');
+
+insert into transacciones  (entidades, egresos, ingresos) values (31, 'Ally', 'Tad');
+
+insert into transacciones  (entidades, egresos, ingresos) values (32, 'Elsi', 'Gael');
+
+insert into transacciones  (entidades, egresos, ingresos) values (33, 'Elston', 'Loralie');
+
+insert into transacciones  (entidades, egresos, ingresos) values (34, 'Blakeley', 'Geoffrey');
+
+insert into transacciones  (entidades, egresos, ingresos) values (35, 'Lenora', 'Dino');
+
+insert into transacciones  (entidades, egresos, ingresos) values (36, 'Thalia', 'Tobe');
+
+insert into transacciones  (entidades, egresos, ingresos) values (37, 'Philomena', 'Hube');
+
+insert into transacciones  (entidades, egresos, ingresos) values (38, 'Terra', 'Jefferey');
+
+insert into transacciones  (entidades, egresos, ingresos) values (39, 'Cathrine', 'Humfrid');
+
+insert into transacciones  (entidades, egresos, ingresos) values (40, 'Rockwell', 'Yolanda');
+
+insert into transacciones  (entidades, egresos, ingresos) values (41, 'Veronike', 'Iggie');
+
+insert into transacciones  (entidades, egresos, ingresos) values (42, 'Amelina', 'Rivi');
+
+insert into transacciones  (entidades, egresos, ingresos) values (43, 'Briano', 'Meris');
+
+insert into transacciones  (entidades, egresos, ingresos) values (44, 'Phoebe', 'Marla');
+
+insert into transacciones  (entidades, egresos, ingresos) values (45, 'Dianna', 'Maggee');
+
+insert into transacciones  (entidades, egresos, ingresos) values (46, 'Lawry', 'Ethelind');
+
+insert into transacciones  (entidades, egresos, ingresos) values (47, 'Katy', 'Brady');
+
+insert into transacciones  (entidades, egresos, ingresos) values (48, 'Cissiee', 'Doll');
+
+insert into transacciones  (entidades, egresos, ingresos) values (49, 'Beck', 'Lukas');
+
+insert into transacciones  (entidades, egresos, ingresos) values (50, 'Guendolen', 'Isaak');
+
+insert into transacciones  (entidades, egresos, ingresos) values (51, 'Oneida', 'Gerrard');
+
+insert into transacciones  (entidades, egresos, ingresos) values (52, 'Bryn', 'Malory');
+
+insert into transacciones  (entidades, egresos, ingresos) values (53, 'Hollie', 'Madella');
+
+insert into transacciones  (entidades, egresos, ingresos) values (54, 'Evy', 'Haley');
+
+insert into transacciones  (entidades, egresos, ingresos) values (55, 'Rolland', 'Kippy');
+
+insert into transacciones  (entidades, egresos, ingresos) values (56, 'Hilda', 'Gertrudis');
+
+insert into transacciones  (entidades, egresos, ingresos) values (57, 'Clevie', 'Devinne');
+
+insert into transacciones  (entidades, egresos, ingresos) values (58, 'Antons', 'Erminie');
+
+insert into transacciones  (entidades, egresos, ingresos) values (59, 'Loree', 'Juliane');
+
+insert into transacciones  (entidades, egresos, ingresos) values (60, 'Hynda', 'Durward');
+
+insert into transacciones  (entidades, egresos, ingresos) values (61, 'Cristabel', 'Justinian');
+
+insert into transacciones  (entidades, egresos, ingresos) values (62, 'Tori', 'Richard');
+
+insert into transacciones  (entidades, egresos, ingresos) values (63, 'Norean', 'Lanie');
+
+insert into transacciones  (entidades, egresos, ingresos) values (64, 'Michaella', 'Claresta');
+
+insert into transacciones  (entidades, egresos, ingresos) values (65, 'Erda', 'Thorn');
+
+insert into transacciones  (entidades, egresos, ingresos) values (66, 'Chanda', 'Adaline');
+
+insert into transacciones  (entidades, egresos, ingresos) values (67, 'Wilt', 'Ilse');
+
+insert into transacciones  (entidades, egresos, ingresos) values (68, 'Adena', 'Pierrette');
+
+insert into transacciones  (entidades, egresos, ingresos) values (69, 'Marisa', 'Farley');
+
+insert into transacciones  (entidades, egresos, ingresos) values (70, 'Courtney', 'Preston');
+
+insert into transacciones  (entidades, egresos, ingresos) values (71, 'Ransell', 'Claretta');
+
+insert into transacciones  (entidades, egresos, ingresos) values (72, 'Vincenty', 'Verine');
+
+insert into transacciones  (entidades, egresos, ingresos) values (73, 'Sally', 'Hope');
+
+insert into transacciones  (entidades, egresos, ingresos) values (74, 'Tamar', 'Chelsy');
+
+insert into transacciones  (entidades, egresos, ingresos) values (75, 'Ailey', 'Elsinore');
+
+insert into transacciones  (entidades, egresos, ingresos) values (76, 'Doris', 'Gertrude');
+
+insert into transacciones  (entidades, egresos, ingresos) values (77, 'Shannah', 'Finn');
+
+insert into transacciones  (entidades, egresos, ingresos) values (78, 'Angil', 'Karim');
+
+insert into transacciones  (entidades, egresos, ingresos) values (79, 'Elberta', 'Galvan');
+
+insert into transacciones  (entidades, egresos, ingresos) values (80, 'Ferdie', 'Cortney');
+
+insert into transacciones  (entidades, egresos, ingresos) values (81, 'Staffard', 'Gabriell');
+
+insert into transacciones  (entidades, egresos, ingresos) values (82, 'Leonie', 'Mario');
+
+insert into transacciones  (entidades, egresos, ingresos) values (83, 'Simone', 'Milo');
+
+insert into transacciones  (entidades, egresos, ingresos) values (84, 'Carlo', 'Simone');
+
+insert into transacciones  (entidades, egresos, ingresos) values (85, 'Zacherie', 'Joya');
+
+insert into transacciones  (entidades, egresos, ingresos) values (86, 'Rodina', 'Berni');
+
+insert into transacciones  (entidades, egresos, ingresos) values (87, 'Dulce', 'Norry');
+
+insert into transacciones  (entidades, egresos, ingresos) values (88, 'Doro', 'Jorey');
+
+insert into transacciones  (entidades, egresos, ingresos) values (89, 'Regina', 'Tatiania');
+
+insert into transacciones  (entidades, egresos, ingresos) values (90, 'Neils', 'Caspar');
+
+insert into transacciones  (entidades, egresos, ingresos) values (91, 'Norri', 'Maressa');
+
+insert into transacciones  (entidades, egresos, ingresos) values (92, 'Richmond', 'Amalle');
+
+insert into transacciones  (entidades, egresos, ingresos) values (93, 'Shana', 'Trudi');
+
+insert into transacciones  (entidades, egresos, ingresos) values (94, 'Erich', 'Madalyn');
+
+insert into transacciones  (entidades, egresos, ingresos) values (95, 'Lanette', 'Royal');
+
+insert into transacciones  (entidades, egresos, ingresos) values (96, 'Molli', 'Geralda');
+
+insert into transacciones  (entidades, egresos, ingresos) values (97, 'Ida', 'Sibyl');
+
+insert into transacciones  (entidades, egresos, ingresos) values (98, 'Gwen', 'Anitra');
+
+insert into transacciones  (entidades, egresos, ingresos) values (99, 'Brad', 'Darrel');
+
+insert into transacciones  (entidades, egresos, ingresos) values (100, 'Alli', 'Veronica');
+
+</sql><current_tab id="7"/></tab_sql></sqlb_project>
